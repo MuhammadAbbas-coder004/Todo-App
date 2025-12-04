@@ -6,8 +6,8 @@ function rendertodo(){
 ul.innerHTML = "" 
 for(let i = 0; i < allTodo.length; i++){
 ul.innerHTML += `<li>${allTodo[i]} 
-<button onclick="deleteTodo(${i})">delete</button>
-<button onclick="editTodo(${i})">edit</button>
+<button  class="delete" onclick="deleteTodo(${i})">Delete</button>
+<button class="edit"  onclick="editTodo(${i})">Edit</button>
 </li> `
 }
 }
