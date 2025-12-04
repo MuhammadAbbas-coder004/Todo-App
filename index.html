@@ -5,29 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    
 </head>
 <body>
-     
+<div class="container">
 
+    <h2>Todo App</h2>
 
+    <!-- Static Input (UI Only) -->
+    <div class="input-box">
+        <input  id="inputtodo" type="text" placeholder="Add Todo">
+        <button onclick="addTodo()" >Add</button>
+    </div>
 
+    <!-- Static Todo Items (UI Only) -->
+    <div class="todo">
+        <p>Learn Todo</p>
+        <div >
+            <ul class="list" >
 
-
-
-
-
-
-   <h1>Todo App</h1>
-<div class="container"> 
- 
-<div class="todoitems" >
-<input type="text" placeholder="enter todo app"  id="inputtodo"  >
-<br/><br/><br/><br/>
-<button onclick="addTodo()">Add todo</button>
-<br/><br/><br/><br/>
-<ul></ul>
+            </ul>
+        
+        </div>
+    </div>
+    </div>
+    </div>
 </div>
-</div>
+
 <script src="app.js"></script>  
 </body>
 </html>

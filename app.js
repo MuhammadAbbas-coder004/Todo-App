@@ -1,5 +1,5 @@
 const input = document.querySelector("#inputtodo");
-const ul = document.querySelector("ul");
+const ul = document.querySelector(".list");
 const allTodo = [];
 
 function rendertodo(){
